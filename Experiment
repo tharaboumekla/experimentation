@@ -1,0 +1,17 @@
+%%%%%%%%%%%%%%%%%%%%%%
+% Experiment
+%%%%%%%%%%%%%%%%%%%%%%
+
+% hide mouse cursor
+HideCursor;
+
+% run through the training phase and test phase
+for phase=1:2 % 1 is training phase, 2 is the test phase
+
+  % setup variables depending on the phase:
+  if phase==1 % training phase
+        %%%%%%%incomplete
+  
+  
+  % Write Instruction message here
+  
