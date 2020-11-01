@@ -1,3 +1,27 @@
+
+%----------------------------------------------------------------------
+%                       Keyboard information
+%----------------------------------------------------------------------
+% information du clavier pour les touches que le sujet utilisera pour naviguer dans la tache.
+
+KbName('UnifyKeyNames'); % Makes sure keyboard mapping is the same on all operating systems
+
+
+escapeKey = KbName('ESCAPE'); %pour sortir
+yesKey = KbName('y');    %quand le sujet reconnait l'image ou le mot
+noKey = KbName('space');  %quand le sujet ne reconnait pas l'image ou le mot
+%vous pouvez changer les touche, il n'y a pas d'importance, faut juste tous être d'accord sur la selection.
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% file handling
+%%%%%%%%%%%%%%%%%%%%%%
+
+%ici on definit les fichiers, resultats, .txt files, etc. :-)
+
+studyfilename = 'studylist.txt';
+testfilename = 'testlist.txt';
+
 %%%%%%%%%%%%%%%%%%%%%%
 % Experiment
 %%%%%%%%%%%%%%%%%%%%%%
@@ -5,11 +29,11 @@
 % hide mouse cursor
 HideCursor;
 
-% run through the training phase and test phase
-for phase=1:2 % 1 is training phase, 2 is the test phase
+% run through the study phase and test phase
+for phase=1:2 % 1 is study phase, 2 is the test phase
 
   % setup variables depending on the phase:
-  if phase==1 % training phase
+  if phase==1 % study phase
         %%%%%%%incomplete
   
   
