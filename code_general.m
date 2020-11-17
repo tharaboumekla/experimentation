@@ -17,7 +17,7 @@ for i = 1:1:NombreParticipants                                      %La boucle f
 NomParticipants= input('Entrer le nom du participant: ', 's');      %On met 's' lorsqu'on entre des lettres, parce qu'on veut que ça reconnaissaise la variable comme étant un string.
 infos(i).Nom=NomParticipants;                                       %Pour stocker les noms des participants dans le tableau d'enregistrement, dans la colonne "Nom"
 end
-
+%% comment here to edit and add
 %Début de l''expérience
 for i=1:NombreParticipants                                          %La boucle va parcourir un à un chaque nom des participants entrés
 % Afficher les règles du de l''expérience
